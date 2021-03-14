@@ -1,0 +1,22 @@
+{"intents": [
+  {"tag":  "greetings",
+  "pattern":  ["hello","hey","hi", "good day", "what's up!"],
+  "responses": ["Hello", "Hey", "What can I do for you ?"]
+  },
+  {"tag": "goodbye",
+    "pattern": ["see ya", "cya", "see you later", "bye", "Have a good day", "goodbye", "I am leaving", "sayonara"],
+    "responses": ["Sad to see you go", "Talk to you later", "Goodbye", "Miss you"]
+  },
+  {"tag": "age",
+    "pattern": ["how old are you", "what's your age", "how old ?"],
+    "responses": ["I am 20 years old", "I am 20", "20 years", "20!", "20+"]
+  },
+  {"tag": "name",
+    "pattern": ["what is your name?", "what should I call you?", "what's your name ?", "Your name ?"],
+    "responses": ["You can call me Jack", "My name is Jack", "Jack !", "I'm Jack", "I am Jack"]
+  },
+  {"tag": "hours",
+    "pattern": ["when are you guys open ?", "what are your hours", "hours of service available", "hours of opening", "till when is this open?"],
+    "responses": ["24/7"]
+  }
+]}
